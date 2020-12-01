@@ -17,17 +17,22 @@ body {
 
 .container {
     width: 80%;
-    margin: 2.5% auto;
+    margin: 0 auto;
     text-align: center;
     position: relative;
+    padding: 5rem;
 }
 
-img {
-    width: 40rem;
-    height: 40rem;
+.img {
+    width: 35rem;
+    height: 35rem;
     border-radius: 50%;
     border: 0.3rem solid #51837C;
     border-bottom: none;
+    text-align: center;
+    background-image: url(images/crystalBall.jpg);
+    background-position: center;
+    margin: 0 auto;
 }
 
 .container div {
