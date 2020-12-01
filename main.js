@@ -4,9 +4,9 @@ let container = document.createElement("div");
 container.classList.add("container");
 body.appendChild(container);
 
-let img = document.createElement("img");
-img.setAttribute("src", "images/crystalBall.jpg");
-container.appendChild(img);
+let p4img = document.createElement("p");
+p4img.setAttribute("class", "img");
+container.appendChild(p4img);
 
 let leftQuote = document.createElement("div");
 leftQuote.classList.add("left-quote");
